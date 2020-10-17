@@ -14,3 +14,7 @@ resources:
     type: Cloud.vSphere.Disk
     properties:
       capacityGb: 1
+      Cloud_vSphere_Network_1:
+    type: Cloud.vSphere.Network
+    properties:
+      networkType: existing
