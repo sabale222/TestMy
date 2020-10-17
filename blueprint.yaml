@@ -1,0 +1,10 @@
+name:rap version:1
+formatVersion: 1
+inputs: {}
+resources:
+  Cloud_vSphere_Machine_1:
+    type: Cloud.vSphere.Machine
+    properties:
+      image: SundayTempWin
+      cpuCount: 1
+      totalMemoryMB: 1024
